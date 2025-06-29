@@ -16,7 +16,7 @@ const Home = () => {
 
   useEffect(() => {
     // This will hide the loader after 2 seconds
-    const timer = setTimeout(() => setIsLoading(false), 2000);
+    const timer = setTimeout(() => setIsLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
 
