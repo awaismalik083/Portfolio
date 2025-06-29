@@ -7,7 +7,7 @@ const Loader = () => {
             <div className="loader">
                 <div className="box">
                     <div className="logo">
-                        <p className='font-bold text-sm text-center mt-2 flex justify-center items-center text-white'>Logo</p>
+                        <p className='font-bold text-sm text-center mt-2 flex justify-center items-center text-white'></p>
                     </div>
                 </div>
                 <div className="box"></div>
